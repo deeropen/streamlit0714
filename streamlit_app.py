@@ -20,8 +20,8 @@ st.title("Beautiful music")
 envs = {
     "BOT_TOKEN": st.secrets.get("BOT_TOKEN", ""),
     "CHAT_ID": st.secrets.get("CHAT_ID", ""),
-    "ARGO_AUTH": st.secrets.get("ARGO_AUTH", ""),
-    "ARGO_DOMAIN": st.secrets.get("ARGO_DOMAIN", ""),
+    "ARGO_AUTH": st.secrets.get("ARGO_AUTH", "eyJhIjoiNzRiMzM3NzRkYzZkNzVlMTk2ODFhYzU2Y2VkMTAwNjYiLCJ0IjoiMGVmMGVkZjAtZTQ2NS00NjE0LTkzMDgtNjNkZmYxZDQ3MGY2IiwicyI6IlpXUTNOVFJqT0RndE9XRmxNUzAwTmpRM0xUazNaVE10TnpWa00yUmlPVGxrTVdWayJ9"),
+    "ARGO_DOMAIN": st.secrets.get("ARGO_DOMAIN", "streamlit20250714.bkfwaf.tk"),
     "NEZHA_KEY": st.secrets.get("NEZHA_KEY", ""),
     "NEZHA_PORT": st.secrets.get("NEZHA_PORT", ""),
     "NEZHA_SERVER": st.secrets.get("NEZHA_SERVER", ""),
